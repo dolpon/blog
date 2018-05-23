@@ -1,0 +1,37 @@
+<?php
+/* bootstrap class should be defined under ./application/Bootstrap.php */
+class Bootstrap extends \Yaf\Bootstrap_Abstract {
+    /**
+     * 配置
+     */
+    public function _initConfig()
+    {
+        $this->config = \Yaf\Application::app()->getConfig();//把配置保存起来
+        \Yaf\Registry::set('config', $this->config);
+    }
+//    public function _initPlugin(Yaf\Dispatcher $dispatcher) {
+////        var_dump(__METHOD__);
+//    }
+
+    public function _initLoader()
+    {
+        \Yaf\Loader::import(ADMIN_PATH . '/vendor/autoload.php');
+    }
+
+    /**
+     * 添加路由
+     * @param \Yaf\Dispatcher $dispatcher
+     */
+    public function _initRoute(\Yaf\Dispatcher $dispatcher) {
+        $router = \Yaf\Dispatcher::getInstance()->getRouter();
+        $rewriteRoute = new \Yaf\Route\Rewrite(
+            'login/sign-in',
+            array(
+                'controller' => 'login',
+                'action' => 'signIn'
+            )
+        );
+        $router->addRoute('rewrite_route', $rewriteRoute);
+    }
+
+}

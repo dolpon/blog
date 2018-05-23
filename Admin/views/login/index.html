@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--
+BeyondAdmin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.6
+Version: 1.6.0
+Purchase: https://wrapbootstrap.com/theme/beyondadmin-adminapp-angularjs-mvc-WB06R48S4
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="/admin/angular/app" ng-controller="/admin/angular/appCtrl">
+
+<!-- Head -->
+<head>
+    <meta charset="utf-8" />
+    <title page-title></title>
+
+    <meta name="description" content="blank page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/admin/angular/img/favicon.png" type="image/x-icon">
+
+    <!--Basic Styles-->
+    <link href="/admin/angular/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link ng-if="settings.rtl" ng-href="/admin/angular/assets/css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="/admin/angular/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/admin/angular/assets/css/weather-icons.min.css" rel="stylesheet" />
+
+    <!--Fonts-->
+    <style>
+        @@font-face {
+            font-family: 'WYekan';
+            src: url('//admin/angular/fonts/BYekan.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300"
+          rel="stylesheet" type="text/css">
+
+    <!--Beyond styles-->
+    <link ng-if="!settings.rtl" href="/admin/angular/assets/css/beyond.min.css" rel="stylesheet" />
+    <link ng-if="settings.rtl" href="/admin/angular/assets/css/beyond-rtl.min.css" rel="stylesheet" />
+    <link href="/admin/angular/assets/css/demo.min.css" rel="stylesheet" />
+    <link href="/admin/angular/assets/css/typicons.min.css" rel="stylesheet" />
+    <link href="/admin/angular/assets/css/animate.min.css" rel="stylesheet" />
+    <link ng-href="{{settings.skin}}" rel="stylesheet" type="text/css" />
+
+</head>
+<!-- /Head -->
+
+<!-- Body -->
+<body>
+<div ui-view autoscroll="false"></div>
+<div class="login-container animated fadeInDown">
+    <div class="loginbox bg-white">
+        <div class="loginbox-title">SIGN IN</div>
+        <div class="loginbox-social">
+            <div class="social-title ">Connect with Your Social Accounts</div>
+        </div>
+        <div class="loginbox-or">
+            <div class="or-line"></div>
+            <div class="or">OR</div>
+        </div>
+        <div class="loginbox-textbox">
+            <input type="text" name="email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="loginbox-textbox">
+            <input type="text" name="password" class="form-control" placeholder="Password" />
+        </div>
+        <div class="loginbox-forgot">
+            <a href="">Forgot Password?</a>
+        </div>
+        <div class="loginbox-submit">
+            <input type="button" class="btn btn-primary btn-block" value="Login">
+        </div>
+        <div class="loginbox-signup">
+            <a href="register.html">Sign Up With Email</a>
+        </div>
+    </div>
+    <div class="logobox">
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="/admin/angular/lib/jquery/jquery.min.js"></script>
+<script src="/admin/angular/lib/jquery/bootstrap.js"></script>
+<script src="/admin/angular/lib/angular/angular.js"></script>
+
+<script src="/admin/angular/lib/utilities.js"></script>
+
+<script src="/admin/angular/lib/angular/angular-animate/angular-animate.js"></script>
+<script src="/admin/angular/lib/angular/angular-cookies/angular-cookies.js"></script>
+<script src="/admin/angular/lib/angular/angular-resource/angular-resource.js"></script>
+<script src="/admin/angular/lib/angular/angular-sanitize/angular-sanitize.js"></script>
+<script src="/admin/angular/lib/angular/angular-touch/angular-touch.js"></script>
+
+<script src="/admin/angular/lib/angular/angular-ui-router/angular-ui-router.js"></script>
+<script src="/admin/angular/lib/angular/angular-ocLazyLoad/ocLazyLoad.js"></script>
+<script src="/admin/angular/lib/angular/angular-ngStorage/ngStorage.js"></script>
+<script src="/admin/angular/lib/angular/angular-ui-utils/angular-ui-utils.js"></script>
+<script src="/admin/angular/lib/angular/angular-breadcrumb/angular-breadcrumb.js"></script>
+
+<script src="/admin/angular/lib/angular/angular-ui-bootstrap/ui-bootstrap.js"></script>
+<script src="/admin/angular/lib/jquery/slimscroll/jquery.slimscroll.js"></script>
+
+
+
+<!-- App Config and Routing Scripts -->
+<script src="/admin/angular/app/app.js"></script>
+<script src="/admin/angular/app/config.js"></script>
+<script src="/admin/angular/app/config.lazyload.js"></script>
+<script src="/admin/angular/app/config.router.js"></script>
+<script src="/admin/angular/app/beyond.js"></script>
+
+
+<!-- Layout Related Directives -->
+<script src="/admin/angular/app/directives/loading.js"></script>
+<script src="/admin/angular/app/directives/skin.js"></script>
+<script src="/admin/angular/app/directives/sidebar.js"></script>
+<script src="/admin/angular/app/directives/header.js"></script>
+<script src="/admin/angular/app/directives/navbar.js"></script>
+<script src="/admin/angular/app/directives/chatbar.js"></script>
+<script src="/admin/angular/app/directives/widget.js"></script>
+
+
+<!-- login -->
+<script src="/js/md5.js"></script>
+<script>
+    $('.loginbox-submit').click(function(){
+        var loginData = function(){};
+        loginData.email=$('input[name="email"]').val();
+        var password=$('input[name="password"]').val();
+        loginData.password=$.md5(password);
+        var user = new loginData();
+
+        $.ajax({
+            url: '/login/sign-in',
+            method: 'post',
+            dataType: 'json',
+            data: user,
+            success: function(ret)
+            {
+
+            },
+            fail:function(){
+
+            }
+        });
+    });
+
+</script>
+
+</body>
+<!--  /Body -->
+</html>
