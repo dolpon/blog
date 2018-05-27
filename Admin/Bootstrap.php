@@ -1,6 +1,12 @@
 <?php
 /* bootstrap class should be defined under ./application/Bootstrap.php */
 class Bootstrap extends \Yaf\Bootstrap_Abstract {
+
+    public function init()
+    {
+        session_start();
+    }
+
     /**
      * 配置
      */
@@ -16,6 +22,8 @@ class Bootstrap extends \Yaf\Bootstrap_Abstract {
     public function _initLoader()
     {
         \Yaf\Loader::import(ADMIN_PATH . '/vendor/autoload.php');
+        \Yaf\Loader::getInstance()->registerLocalNameSpace(array("Msg"));
+
     }
 
     /**

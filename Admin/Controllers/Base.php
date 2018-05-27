@@ -6,8 +6,6 @@ class BaseController extends \Yaf\Controller_Abstract
 
     public function _init()
     {
-        session_start();
-
         if(!isset($_SESSION['dolpon_admin_session'])) {
             header('/login');
         }

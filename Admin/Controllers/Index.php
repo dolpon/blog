@@ -12,7 +12,7 @@ class IndexController extends BaseController
 
     public function indexAction()
     {
-        if(!isset($_SESSION['dolpon'])){
+        if(!isset($_SESSION['dop_admin_session'])){
             header('location://admin.dolpon.local/login');
             exit;
         }
