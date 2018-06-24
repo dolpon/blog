@@ -2,20 +2,832 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6659314-82a9-4162-9f38-022539834d36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Admin/library/Function/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/library/Msg/MsgClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/models/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/erp.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/controllers/Aliexpress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/controllers/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/AliexpressButt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/QimenCloudClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/TopSdk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/fileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/ApplicationVar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/ClusterTopClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/HttpdnsGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/RequestCheckUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/ResultSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/SpiUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/TopClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/TopLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AccountResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AddressDTOs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeCurrentLevelInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeCurrentLevelInfoResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeDisputeExpListQueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeDisputeProductDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeDisputeProductListQueryResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeIndustryAvgServiceIndexDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeIndustryAvgServiceScoreDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeProductCopyTemplateResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeProductQueryBySizeTemplateResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeProductQuerySizeTemplateResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeProductSizeTemplateQuerySimpleInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeServiceIndexDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeServiceScoreDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeServiceScoreInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeServiceScoreWeightDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeStoreServiceScoreInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeStoreServiceScoreInfoResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeMultimedia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductDisplaySampleDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductGroupIdHolder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductListQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductMultilanguageInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductSizeChartResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductSku.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeProductTreeGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAeVideo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAttrValueDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAttributeDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopAttributeResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopBundleItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopBundleItemSku.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopBundleSubItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopCategoryForecastResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopCloudPrintDataResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopDeleteImageRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopDeleteImageResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFindModuleListResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFindProductListResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFindProductResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFindProductStatusResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFreightSelfdefine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFreightSelfdefineStandard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFreightSelfdefineWeight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFreightSetting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopFreightTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopImagePaginationRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopImagePaginationResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopImageResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopLogisticsOrderDetailDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopLogisticsOrderDetailQueryResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopLogisticsServiceResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopLogisticsWarehouseOrderResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopModifyProductResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopNationalQuoteConfiguration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundleDeleteResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundleFindResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundleInitialResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundleQueryCondition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundleQueryResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOfferBundleSaveResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOnlineLogisticsFeeItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopOnlineLogisticsServiceResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPhotoBankImageGroupDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPhotoBankImageGroupResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPhotoBankImageResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPhotoBankInfoResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPostCategoryDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPostCategoryResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPostProductResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopProductWindowResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopProhibitedWordsResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopPromiseTemplateResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopRelateSizeChartResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopSellerShipmentSubTradeOrderDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopShipmentDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopSkuProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTaoDaiXiaoClaimResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpAddressDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpChildOrderDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpIssueInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpLoanInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpLogisticInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpOperationLogDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpOrderDetailDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpOrderMsgDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpOrderProductInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpPersonDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpRefundInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTpSingleOrderQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopTrackingDetailResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopUnit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopUploadImageResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWarehouseOrderPrintFieldResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWarehouseOrderQueryPdfRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWaybillCloudPrintDataResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWindowProductResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWlCreateWarehouseOrderResultDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWlDeclareAddressDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWlDeclareProductForTopDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/AeopWlDomesticLogisticsCompanyDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Aeopdetailmodulelist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Aeopfreightcalculateresultdtolist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Aeopfreighttemplatedtolist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ArticleBizOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ArticleSub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ArticleUserSubscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ChildOrderDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ChinaAddressItemDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/CloudPrintData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/CreateDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Currency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ErrorDetail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/EvaluationFeedbackDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/FilePath.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/FundLoanListVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/FundloanRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/IssueApiListQueryDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/IssueApiListResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/IssueApiResultDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/IssueOpenApiResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/KfcSearchResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/LimitedDiscountPromProductDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/LogisticsFee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/MessageDetail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Money.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/MoneyStr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/MultilanguageAeopAeProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OpenApiMessageDetailListResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OpenApiRelationResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderBaseInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderItemVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderListRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderListVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderLoanItemVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderProductVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/OrderTradeInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Otherfees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Pickupselleraddresslist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ProductsInfoForOnePromotion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ProhibitedWord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromProductResultOpenDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromProductSingleQueryDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromProductSkuDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromProductSkuProperty.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromotionListResultForProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromotionProductResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromotionProductsStockDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/PromotionResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Refundselleraddresslist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/RelationQueryDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/RelationResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/RemoteQueryOpenResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/ScoreResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SellerCouponActivity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SellerCouponActivityApiQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SellerCouponActivityList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SellerEvaluationOpenQueryDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Senderselleraddresslist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Shipmentlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SimpleOrderItemVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SimpleOrderListVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SimpleOrderProductVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SimplePlatformPromProductDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Sizechartdtolist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/SonOrderLoanVo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/StorePromotion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Struct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Subtask.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Subtradeorderlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Summary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Templatelist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TopDownloadRecordDo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenAddressDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenChildOrderDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenIssueInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenLoanInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenLogisticInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenOrderDetailDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenOrderMsgDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenOrderProductInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenPersonDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenRefundInfoDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOpenSingleOrderQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/TpOperationLogDto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/WarrantyResultModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/Windowproducts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/domain/WsPromotionProductSkuDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressAppraiseRedefiningQuerysellerevaluationorderlistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressAppraiseRedefiningSavesellerfeedbackRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressCategoryRedefiningGetchildattributesresultbypostcateidandpathRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressCategoryRedefiningGetchildrenpostcategorybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressCategoryRedefiningGetpostcategorybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressCategoryRedefiningSizemodelsrequiredforpostcatRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressDataRedefiningQueryproductaddcartinfoeverydaybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressDataRedefiningQueryproductbusinessinfobyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressDataRedefiningQueryproductexposedinfoeverydaybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressDataRedefiningQueryproductfavoritedinfoeverydaybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressDataRedefiningQueryproductsalesinfoeverydaybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressDataRedefiningQueryproductviewedinfoeverydaybyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressFreightRedefiningCalculatefreightRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressFreightRedefiningGetfreightsettingbytemplatequeryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressFreightRedefiningListfreighttemplateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressImageRedefiningUploadtempimageRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressImageRedefiningUploadtempimageforsdkRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningFindissuedetailbyissueidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningLeaveordermessageRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningQueryissuelistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningSellerabandonreceivegoodsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningSellerconrimreceivegoodsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningSellersubmitarbiRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressIssueRedefiningUploadissueimageRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsCreatewarehouseorderRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetfieldinfoforprintRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetlogisticsselleraddressesRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetnextleveladdressdataRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetonlinelogisticsinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetonlinelogisticsservicelistbyorderidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetpdfsbycloudprintRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetprintinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsGetprintinfosRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsListlogisticsserviceRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsQuerylogisticsorderdetailRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsQuerysellershipmentinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsQuerytrackingresultRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsQureywlbdomesticlogisticscompanyRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetallprovinceRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetfieldinfoforprintRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetlogisticsselleraddressesRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetnextleveladdressdataRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetonlinelogisticsinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetonlinelogisticsservicelistbyorderidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetprintinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningGetprintinfosRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningListlogisticsserviceRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningQuerytrackingresultRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningQureywlbdomesticlogisticscompanyRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsRedefiningSellermodifiedshipmentsupportsubtradeorderRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsSellermodifiedshipmentfortopRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsSellermodifiedshipmentsupportsubtradeorderRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsSellershipmentfortopRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressLogisticsSellershipmentsupportsubtradeorderRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningAdjustlimiteddiscountpromendtimebetaRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningBatchlimiteddiscountpromstockmanagementbetaRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningCreatelimitdiscountpromotionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningExitlimiteddiscountpromotionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningFindsellercouponactivityRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningGetactlistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningJoinlimiteddiscountpromotionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningQueryproductlistresultforpromotionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningQuerypromotionlistresultforproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningResetplatformpromotionstockRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningRestocklimiteddiscountpromproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMarketingRedefiningUpdatelimiteddiscountpromotionRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMemberRedefiningQueryaccountlevelRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMemberRedefiningUicquerytbnickRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMerchantRedefiningQuerydsrddisputeproductlistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMerchantRedefiningQuerylevelinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMerchantRedefiningQueryremarkRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMerchantRedefiningQueryremarksRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMerchantRedefiningQueryservicescoreinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMerchantRedefiningSaveremarkRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoAddmsgRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoQuerymsgchannelidbybuyeridRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoQuerymsgdetaillistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoQuerymsgrelationlistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoUpdatemsgprocessedRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoUpdatemsgrankRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressMessageRedefiningVersiontwoUpdatemsgreadRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningCopysizetemplateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningCreatebundleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningDeletebundleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningEditbundleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningFindbundlebyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningGetcanusedproductbysizetemplateidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningGetsizetemplatesbycategoryidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningInitialnewbundleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressOfferRedefiningQuerybundleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningDelunusephotoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningGetphotobankinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningListgroupRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningListimagepaginationRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningQueryphotobankimagebypathsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningUploadimageRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPhotobankRedefiningUploadimageforsdkRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningCategoryforecastRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningClaimtaobaoproductsapiRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningCreateproductgroupRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditaeproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditmultilanguageproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditmutilpleskustocksRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditproductcategoryattributesRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditproductcidattidskuRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditsimpleproductfiledRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditsingleskupriceRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningEditsingleskustockRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningFindaeproductbyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningFindaeproductdetailmodulelistbyqureyRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningFindaeproductprohibitedwordsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningFindaeproductstatusbyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningFindproductinfolistqueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningGetproductgrouplistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningGetsizechartinfobycategoryidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningGetwindowproductsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningOfflineaeproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningOnlineaeproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningPostaeproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningPostmultilanguageaeproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningQueryproductgroupidbyproductidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningQuerypromisetemplatebyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningRenewexpireRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningSetgroupsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningSetshopwindowproductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressPostproductRedefiningSetsizechartRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeFindorderbyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeFindorderlistqueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeNewRedefiningFindorderbyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningExtendsbuyeracceptgoodstimeRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindloanlistqueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindorderbaseinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindorderbyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindorderlistqueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindorderlistsimplequeryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindorderreceiptinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressTradeRedefiningFindordertradeinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressWarrantyOrderQueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AliexpressWarrantyOrderQuerycustomerRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AppipGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/AreasGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/FilesGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/FuwuSaleLinkGenRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/FuwuScoresGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/HttpdnsGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/KfcKeywordSearchRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/OpenuidChangeRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/OpenuidGetBymixnickRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/OpenuidGetBytradeRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/OpenuidGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/SaiweiOrderOrderlistRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TimeGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopAuthTokenCreateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopAuthTokenRefreshRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopIpoutGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopSdkFeedbackUploadRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopSecretGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopSecretRegisterRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopatsResultGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/TopatsTaskDeleteRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/ValsunLogisticsQuerysellershipmentinfoRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/ValsunLogisticsSellermodifiedshipmentfortopRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/ValsunLogisticsSellershipmentfortopRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/ValsunTradeRedefiningFindorderbyidRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/ValsunTradeRedefiningFindorderlistqueryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/VasOrderSearchRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/VasSubscSearchRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/request/VasSubscribeGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/MagicCrypt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/SecretContext.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/SecretCounterUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/SecretGetRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/SecurityClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/SecurityTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/SecurityUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/TopSdkFeedbackUploadRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/YacCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/sdk/aliexpress/QimenCloud/top/security/iCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/beyond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/config.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/config.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/chartjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/databoxes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/datatable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/minicolors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/nggrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/textangular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/toaster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/controllers/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/chatbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/realtimechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/skin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/app/directives/widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/400-500.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/accordions.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/angular-daterangepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/angular-slider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/angular-treeview.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/animations.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/body.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/breadcrumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/charts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/chat.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/checkbox-radiobox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/colorpicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/colors.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/comment.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/dashboard.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/databoxes.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/datepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/dropdowns.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/dropzone.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/editors.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/fonts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/forms-inputs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/fullcalendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/helpers.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/invoice.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/labels-badges.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/loading.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/lockscreen.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/login.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/mail.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/main-container.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/navbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/nestable-lists.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/ng-tags-input.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/notifications.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/orders.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/page-content.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/page-header-body.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/popovers.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/pricing.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/profile.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/progressbars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/register.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/search-help-bar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/select2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/sliders.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/spaces.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/spinners.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/switches.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/tables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/tabs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/tagsinput.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/tasks.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/tickets.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/timeline.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/timepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/tooltips.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/treeview.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/typography.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/validator.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/wells.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/widget.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-less/wizards.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/beyond.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/bootstrap-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/bootstrap-rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/demo.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/demo.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/other-less/LessHat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/other-less/lesshat.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/other-less/lesshat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/Blue.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/Blue.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/azure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/azure.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/azure.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/azure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/black.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/black.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkblue.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkblue.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkblue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkred.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkred.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkred.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/darkred.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/deepblue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/deepblue.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/deepblue.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/deepblue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/gray.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/gray.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/gray.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/gray.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/green.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/green.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/orange.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/orange.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/orange.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/pink.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/pink.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/pink.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/purple.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/purple.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/skins-mixins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/skins-mixins.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/skins-mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/skins-mixins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/teal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/teal.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/teal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/skins/teal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/typicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/typicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/weather-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/css/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/BYekan.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/WeatherIcons-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/typicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/typicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/typicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/typicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/fonts/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/angle-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/app-45616.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/attach-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/attach-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/attach-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/attach-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Javi-Jimenez.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/John-Smith.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Lee-Munroe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Matt-Cheuvront.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Nicolai-Larson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Osvaldus-Valutis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Sergey-Azovskiy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/Stephanie-Walter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/adam-jansen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/bing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/avatars/divyia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/jquery.minicolors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/logo-inverted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/logo-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/logo-solo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/temp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/img/tree-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/sound/alert.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/swf/copy_csv_xls.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/assets/swf/copy_csv_xls_pdf.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-animate/angular-animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-aria/angular-aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-breadcrumb/angular-breadcrumb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-cookies/angular-cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-loader/angular-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-message/angular-messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-mocks/angular-mocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-ngStorage/ngStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-ocLazyLoad/ocLazyLoad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-resource/angular-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-route/angular-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-sanitize/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-scenario/angular-scenario.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-touch/angular-touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-ui-bootstrap/ui-bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-ui-router/angular-ui-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular-ui-utils/angular-ui-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/angular/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/chartjs/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/chartjs/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/easypiechart/jquery.easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/easypiechart/jquery.easypiechart.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.axislabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.categories.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.crosshair.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.fillbetween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.orderBars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.selection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.stack.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.time.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/flot/jquery.flot.tooltip.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/morris/raphael-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/charts/sparkline/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.tableTools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.tableTools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/dataTables.tableTools.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/datatable/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fuelux/spinbox/fuelux.spinbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fuelux/spinbox/fuelux.spinbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fuelux/spinbox/fuelux.spinbox.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fuelux/wizard/wizard-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fuelux/wizard/wizard-custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fuelux/wizard/wizard-custom.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fullcalendar/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fullcalendar/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/fullcalendar/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/inputmask/jasny-bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/inputmask/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/jquery-ui-1.10.4.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/jquery-ui-1.10.4.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/knob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/slimscroll/jquery.slimscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/slimscroll/jquery.slimscroll.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/textarea/jquery.autosize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/jquery/textarea/jquery.autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-bootstrap-nav-tree/abn_tree_directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-daterangepicker/angular-daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-daterangepicker/angular-daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-dropzone/angular-dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-dropzone/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-minicolors/angular-minicolors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-minicolors/jquery.minicolors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-minicolors/jquery.minicolors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-nestable/angular-nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-slider/angular-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-slider/angular-slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-ui-calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-ui-select/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-ui-select/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-ui-select/select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angular-ui-select/select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angularjs-toaster/toaster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angularjs-toaster/toaster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/angularjs-toaster/toaster.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/ng-grid/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/ng-grid/ng-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/ng-grid/ng-grid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/ng-tags-input/ng-tags-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/text-angular/textAngular-rangy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/text-angular/textAngular-sanitize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/modules/text-angular/textAngular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/lib/utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/dashboard-arabic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/dashboard-persian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/databoxes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/easypiechart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/error-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/error-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/font-awesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-editors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-inputmask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-inputs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-pickers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/form-wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/glyph-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/layout-arabic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/layout-persian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/lock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/message-compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/message-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/modals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/mvc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/nestable-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/arabic/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/arabic/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/breadcrumbs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/chatbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/loading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/persian/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/persian/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/partials/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/tables-data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/tables-simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/tabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/treeview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/typicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/versions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/weather-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/angular/views/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/beyondadmin_angular_1_6.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/views/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/erp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Controllers/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controllers/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Controllers/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controllers/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controllers/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Controllers/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Controllers/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/views/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/views/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/views/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/views/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/admin.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf/admin.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-element-admin" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,92 +841,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="erp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/erp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp/Bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" column="39" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="erp.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/erp.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="22">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/library/Function/admin.php">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp/controllers/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="10" column="1" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/Base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgClient.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/library/Msg/MsgClient.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/views/login/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="146" column="45" selection-end-line="159" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/views/index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Controllers/User.php">
+      <file leaf-file-name="Aliexpress.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erp/controllers/Aliexpress.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/models/User.php">
+      <file leaf-file-name="AliexpressButt.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erp/sdk/aliexpress/AliexpressButt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="440">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/views/angular/index.html">
+      <file leaf-file-name="admin.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/admin.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="93" column="6" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="93" selection-end-column="6" />
+            <state relative-caret-position="132">
+              <caret line="6" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -128,11 +922,14 @@
       <find>APPLICATION_PATH</find>
       <find>login</find>
       <find>getOneUser</find>
+      <find>angu</find>
+      <find>ADMIN_PATH</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>ADMIN_PATH</replace>
       <replace>/admin/angular/assets/css</replace>
+      <replace>ERP_PATH</replace>
     </replaceStrings>
     <dirStrings>
       <dir>G:\code\blog</dir>
@@ -172,6 +969,12 @@
         <option value="$PROJECT_DIR$/Admin/Controllers/Login.php" />
         <option value="$PROJECT_DIR$/Admin/views/index/index.html" />
         <option value="$PROJECT_DIR$/Admin/models/User.php" />
+        <option value="$PROJECT_DIR$/conf/erp.ini" />
+        <option value="$PROJECT_DIR$/public/erp.php" />
+        <option value="$PROJECT_DIR$/erp/controllers/Index.php" />
+        <option value="$PROJECT_DIR$/erp/Bootstrap.php" />
+        <option value="$PROJECT_DIR$/erp/sdk/aliexpress/AliexpressButt.php" />
+        <option value="$PROJECT_DIR$/erp/controllers/Aliexpress.php" />
       </list>
     </option>
   </component>
@@ -181,8 +984,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Admin/public/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Admin/public/package.json" />
+      <path value="$PROJECT_DIR$/Admin/public/static/bower_components/qiniu/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -192,9 +1001,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1081" />
-    <option name="y" value="157" />
-    <option name="width" value="850" />
+    <option name="x" value="146" />
+    <option name="y" value="240" />
+    <option name="width" value="1580" />
     <option name="height" value="630" />
   </component>
   <component name="ProjectView">
@@ -202,6 +1011,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,90 +1027,46 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="erp" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="erp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Function" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="erp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="library" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Msg" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="angular" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="angular" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="login" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="erp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aliexpress" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wukong" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\code\blog\erp" />
+      <recent name="G:\code\blog\erp\sdk" />
+      <recent name="G:\code\blog\erp\sdk\aliexpress" />
+      <recent name="G:\code\blog\erp\controllers" />
       <recent name="G:\code\blog\public\js" />
-      <recent name="G:\code\blog\public\admin" />
-      <recent name="G:\code\blog\public" />
-      <recent name="G:\code\blog\conf" />
-      <recent name="G:\code\blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +1101,15 @@
       <workItem from="1526865920599" duration="240000" />
       <workItem from="1527092314796" duration="3586000" />
       <workItem from="1527125440190" duration="30000" />
-      <workItem from="1527388396626" duration="16766000" />
+      <workItem from="1527388396626" duration="17396000" />
+      <workItem from="1527470341389" duration="23000" />
+      <workItem from="1527512173840" duration="342000" />
+      <workItem from="1527512623814" duration="27000" />
+      <workItem from="1529507264581" duration="2477000" />
+      <workItem from="1529544433331" duration="124000" />
+      <workItem from="1529650021189" duration="2207000" />
+      <workItem from="1529683486827" duration="597000" />
+      <workItem from="1529716551977" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="blog 重新书写 yaf 慢慢写的玩">
       <created>1525967571316</created>
@@ -348,13 +1122,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33046000" />
+    <option name="totallyTimeSpent" value="39905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.27949062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.2077748" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -377,19 +1151,19 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.27949062" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" visible="true" weight="0.27949062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,69 +1181,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog 重新书写 yaf 慢慢写的玩" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/erp/controllers/Aliexpress.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/views/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/admin.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="6" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/erp/sdk/aliexpress/AliexpressButt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -627,13 +1356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -665,20 +1387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin/angular/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/models/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/admin.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -696,59 +1408,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/library/Function/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Controllers/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/library/Msg/MsgClient.php">
+    <entry file="file://$PROJECT_DIR$/Admin/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Controllers/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/views/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="146" column="45" selection-end-line="159" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/views/angular/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="93" column="6" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="93" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/views/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="286">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -759,10 +1429,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/models/User.php">
+    <entry file="file://$PROJECT_DIR$/Admin/views/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3212">
+          <caret line="146" column="45" selection-end-line="159" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/library/Msg/MsgClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Controllers/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Controllers/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/views/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="73" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/views/angular/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="98" column="54" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/admin.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/erp.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/erp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp/controllers/Aliexpress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erp/sdk/aliexpress/AliexpressButt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
